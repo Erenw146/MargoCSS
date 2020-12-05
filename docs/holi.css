@@ -74,3 +74,9 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 .button.green, .widget-button.green {
     background-image: linear-gradient(to top,#000000c7,#12a3d8);
 }
+.button.purple, .button.violet, .widget-button.purple, .widget-button.violet {
+    background-image: linear-gradient(to top,#291930,#51F1B4);
+}
+.button.blink-violet, .widget-button.blink-violet {
+    background-image: linear-gradient(to top,#291930,#51F1B4);
+}
