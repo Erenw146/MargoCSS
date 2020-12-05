@@ -71,3 +71,6 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 {
     background: url(./img/chat-s.png);
 }
+.button.green, .widget-button.green {
+    background-image: linear-gradient(to top,#000000c7,#12a3d8);
+}
