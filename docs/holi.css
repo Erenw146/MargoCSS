@@ -131,3 +131,22 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
     background:url(./img/btn.png) no-repeat -428px -709px;
 }
+.btn-min
+{
+    background: #063754;
+}
+.btn-min:not(.disabled):hover {
+    background: #2b2f2a;
+}
+.left-column .inner-wrapper .chat-tpl .tabs-pannel
+{
+    border-image-source:url(./img/navi.png)
+}
+.friend-enemy-list .column .scroll-wrapper .scroll-pane .middle-graphics
+{
+    border-image: url(./img/tloq.png) 0 11 fill repeat;
+}
+.friend-enemy-list .amound-wrapper
+{
+    background: url(./img/belka.png);
+}
