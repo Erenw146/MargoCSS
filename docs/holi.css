@@ -67,3 +67,7 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 .left-column .inner-wrapper .chat-tpl .more-players-wrapper .more-players:hover {
     background: url(./img/ikonkic.png) no-repeat -72px 0
 }
+.left-column .inner-wrapper .chat-tpl .send-btn
+{
+    background: url(.img/chat-s.png);
+}
