@@ -166,3 +166,11 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
     background: url(./img/exp.png);
 }
+.layer.interface-layer .main-column.left-column .border
+{
+   background: url(./img/tlo.png) -240px 0;
+}
+.layer.interface-layer .main-column.right-column .border
+{
+background:url(./img/tlo.png) -251px 0
+}
