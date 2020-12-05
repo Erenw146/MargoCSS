@@ -61,12 +61,12 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 .console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
 .mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up {
-    background-image: url(./img/gui/chat-s.png);
+    background-image: url(./img/chat-s.png);
    
 }
 alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
 .console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
 .mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
 .mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down {
-    background-image: url(./img/gui/chat-s.png);
+    background-image: url(./img/chat-s.png);
 }
