@@ -1,4 +1,2 @@
-.game-window-positioner .character_wrapper .equipment-wrapper
-{ 
-    background: url(/img/eq.png) 0 -229px; 
-}
+.game-window-positioner .character_wrapper .equipment-wrapper{background: url(/img/eq.png) 0 -229px; }
+.layer.interface-layer .main-column.right-column { background:url(https://i.imgur.com/d4yjeZ6.png) -251px 0; }
