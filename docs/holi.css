@@ -162,3 +162,7 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
     background: url(./img/belka.png);
 }
+.bottom-panel .exp-bar-wrapper .exp-progress .progress .inner
+{
+    background: url(/img/exp.png);
+}
