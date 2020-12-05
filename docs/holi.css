@@ -57,3 +57,9 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
     background: url(./img/sprite.png) -7px 0;
 
 }
+.left-column .inner-wrapper .chat-tpl .right-tabs-wrapper .tab,
+.left-column .inner-wrapper .chat-tpl .tabs-wrapper .tab 
+{
+    background: url(./img/chat-s.png) -36px -36px;
+
+}
