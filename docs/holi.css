@@ -164,5 +164,5 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 }
 .bottom-panel .exp-bar-wrapper .exp-progress .progress .inner
 {
-    background: url(/img/exp.png);
+    background: url(./img/exp.png);
 }
