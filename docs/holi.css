@@ -11,3 +11,14 @@
 background:url(./img/eq.png)no-repeat -175px 0;
 
 }
+.b_wrapper
+{
+    display: none;
+}
+.game-window-positioner .inventory_wrapper .bags-navigation
+{
+    right: 95px;
+    top: 207px;
+    z-index: 1;
+    background: url(./img/eq.png)no-repeat 0 -140px;
+}
