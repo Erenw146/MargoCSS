@@ -97,7 +97,7 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 }
 .game-window-positioner .inventory_wrapper .bags-navigation .item:hover
 {
-    background: url(../img/chat-s.png) no-repeat 0 -105px;
+    background: url(./img/chat-s.png) no-repeat 0 -105px;
 }
 .left-column .inner-wrapper .chat-tpl .messages-wrapper .under-tab-decor
 {
