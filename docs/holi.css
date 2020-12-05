@@ -57,16 +57,13 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
     background: url(./img/sprite.png) -7px 0;
 
 }
-.alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
-.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
-.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up,
-.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-up {
-    background-image: url(./img/chat-s.png?v3);
-   
+.left-column .inner-wrapper .chat-tpl .right-tabs-wrapper .tab,
+.left-column .inner-wrapper .chat-tpl .tabs-wrapper .tab {
+    background: url(./img/ikonkic.png) -36px -36px;
 }
-alerts-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
-.console-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
-.mAlert-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down,
-.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .scrollbar-wrapper .arrow-down {
-    background-image: url(./img/chat-s.png?v3);
+.left-column .inner-wrapper .chat-tpl .more-players-wrapper .more-players {
+    background: url(./img/ikonkic.png) no-repeat -99px 0;
+}
+.left-column .inner-wrapper .chat-tpl .more-players-wrapper .more-players:hover {
+    background: url(./img/ikonkic.png) no-repeat -72px 0
 }
