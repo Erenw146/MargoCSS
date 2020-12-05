@@ -1,7 +1,7 @@
 .game-window-positioner .character_wrapper .equipment-wrapper {
-    background: url(/img/eq.png) 0 -229px;
+    background: url(./img/eq.png) 0 -229px;
 }
 
 .layer.interface-layer .main-column.right-column {
-    background: url(/img/tlo.png) -251px 0;
+    background: url(./img/tlo.png) -251px 0;
 }
