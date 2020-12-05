@@ -42,3 +42,8 @@ background:url(./img/eq.png)no-repeat -175px 0;
 {
     background: url(./img/st.png);
 }
+.game-window-positioner .character_wrapper .stats-wrapper .header-title
+{
+    color:#121212;
+    text-shadow: 0 0 1em #000, 0 0 0.2em #000;
+}
