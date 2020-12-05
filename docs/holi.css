@@ -174,3 +174,7 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
 background:url(./img/tlo.png) -251px 0
 }
+.layer.loader-layer .progress-bar .inner-wrapper .inner {
+    display: none;
+    background: url(./img/pasek.png)
+}
