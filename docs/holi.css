@@ -47,3 +47,8 @@ background:url(./img/eq.png)no-repeat -175px 0;
     color:#121212;
     text-shadow: 0 0 1em #000, 0 0 0.2em #000;
 }
+.bottom-panel
+{
+background: url(./img/sprite.png) -6px -73px no-repeat;
+
+}
