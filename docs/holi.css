@@ -110,5 +110,8 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 .left-column .inner-wrapper .chat-tpl .input-wrapper
 {
 border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
-
+}
+.right-column .inner-wrapper .battle-set-wrapper .battle-set-nr-0.active
+{
+    background: url(./img/btn.png) no-repeat -390px -709px;
 }
