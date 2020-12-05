@@ -2,7 +2,7 @@
 // @name         Motyw Holidays
 // @version      1.0
 // @description  Motyw Świąteczny
-// @author       Wasyl
+// @author       Wasyl Tergaris
 // @updateURL    none
 // @match        http://*.margonem.pl/*
 // @match        http://*.margonem.com/*
