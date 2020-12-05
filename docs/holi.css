@@ -88,3 +88,10 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 .button.blink-violet, .widget-button.blink-violet {
     background-image: linear-gradient(to top,#291930,#51F1B4);
 }
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname {
+    font-family: cursive;
+}
+.left-column .inner-wrapper .chat-tpl .chat-pannel
+{
+    background:url(./img/chatp.png) 0 111 0 104 round round;
+}
