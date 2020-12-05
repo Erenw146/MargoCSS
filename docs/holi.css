@@ -115,3 +115,7 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
     background: url(./img/btn.png) no-repeat -390px -709px;
 }
+.game-window-positioner .inventory_wrapper .bags-navigation .item.active .highlight
+{
+    background: url(./img/chat-s.png) no-repeat 0 -105px;
+}
