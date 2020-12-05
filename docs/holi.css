@@ -150,3 +150,15 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
     background: url(./img/belka.png);
 }
+.bottom-panel .hp-indicator .blood
+{
+    background: url(./img/hp.png);
+}
+.quest-box .quest-content
+{
+    background: url(./img/questy.png);
+}
+.quest-box .info-wrapper
+{
+    background: url(./img/belka.png);
+}
