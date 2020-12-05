@@ -119,3 +119,15 @@ border-image: url(./img/chatd.png) 0 111 0 104 fill repeat round;
 {
     background: url(./img/chat-s.png) no-repeat 0 -105px;
 }
+.right-column .inner-wrapper .battle-set-wrapper
+{
+    background: url(./img/btn.png) no-repeat -517px -709px;
+}
+.right-column .inner-wrapper .battle-set-wrapper .battle-set-nr-1.active
+{
+    background:url(./img/btn.png) no-repeat -409px -709px;
+}
+.right-column .inner-wrapper .battle-set-wrapper .battle-set-nr-2.active
+{
+    background:url(./img/btn.png) no-repeat -428px -709px;
+}
