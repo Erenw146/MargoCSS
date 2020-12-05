@@ -52,3 +52,8 @@ background:url(./img/eq.png)no-repeat -175px 0;
 background: url(./img/sprite.png) -6px -73px no-repeat;
 
 }
+.layer.interface-layer .positioner.top .hud-container
+{
+    background: url(./img/sprite.png) -7px 0;
+
+}
