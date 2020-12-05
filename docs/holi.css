@@ -95,3 +95,7 @@ background: url(./img/sprite.png) -6px -73px no-repeat;
 {
     background:url(./img/chatp.png) 0 111 0 104 round round;
 }
+.game-window-positioner .inventory_wrapper .bags-navigation .item:hover
+{
+    background: url(../img/chat-s.png) no-repeat 0 -105px;
+}
