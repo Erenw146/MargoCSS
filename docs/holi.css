@@ -5,3 +5,9 @@
 .layer.interface-layer .main-column.right-column {
     background: url(./img/tlo.png) -251px 0;
 }
+
+.game-window-positioner .inventory_wrapper .inventory-grid-bg
+{
+background:url(./img/eq.png)no-repeat -175px 0;
+
+}
