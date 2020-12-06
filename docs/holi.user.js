@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Motyw Świąteczny
 // @author       Wasyl Tergaris
-// @updateURL    none
+// @updateURL    https://erenw146.github.io/MargoCSS/holi.user.js
 // @match        http://*.margonem.pl/*
 // @match        http://*.margonem.com/*
 // @grant        none
