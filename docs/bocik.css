@@ -40,5 +40,5 @@ body{
   button.b_button:hover {
     background: #606478;
     width: 120px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
