@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+body{
+    background: black;
+}
+
+
+#okno {
+    box-sizing: border-box;
+    position: fixed;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    width: 900px;
+    z-Index: 1000;
+    color: white;
+    background:#242430;
+    background-size: cover;
+    box-shadow: inset 0 0 20px 9px #151414;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.b_button{
+    background-color: #4d4b63; /* Green background */
+    border: 1px solid #1a1929; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100px; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Texturina', serif;
+  }
+  .navbar{
+  width: 100%;
+  position: absolute;
+    top: 128px;
+  }
+  button.b_button:hover {
+    background: #606478;
+    width: 120px;
+    transition: 0.5s;
+}
