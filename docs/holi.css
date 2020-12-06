@@ -187,7 +187,6 @@ background:url(./img/tlo.png) -251px 0
 .battle-skill.cooldown-disabled
 .addons-panel .right-column .addon-header .img-wrapper .widget-button.quest.clan-quests-content 
 .black.clan-skills-content .black.code-manager .wrapper .grid .group .black.registration
- .disabled.auctions .right-column .main-list .scroll-wrapper .scroll-pane.disable-click 
- .row.auction-but.disabled.choose-outfit-window.transparent .choose-outfit .choose-outfit-wrapper:hover {
+ .disabled.auctions .right-column .main-list .scroll-wrapper .scroll-pane.disable-click {
     cursor: url(./img/kusor.png), url(../img/gui/cursor/1.cur), auto
 }
