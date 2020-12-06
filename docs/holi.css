@@ -178,6 +178,16 @@ background:url(./img/tlo.png) -251px 0
     display: none;
     background: url(./img/pasek.png)
 }
-.default-cursor {
+.default-cursor .popup-menu .menu-item.label.popup-menu .menu-item.cooldown-disabled.popup-menu .menu-item.cooldown-disabled.button.small.inset,
+.button.small.inset.black,
+.button.small.inset:hover,
+.widget-button.small.inset,
+.widget-button.small.inset.black,
+.widget-button.small.inset:hover.btn-min.disabled.chat-message.battle-msg.battle-skill.disabled
+.battle-skill.cooldown-disabled
+.addons-panel .right-column .addon-header .img-wrapper .widget-button.quest.clan-quests-content 
+.black.clan-skills-content .black.code-manager .wrapper .grid .group .black.registration
+ .disabled.auctions .right-column .main-list .scroll-wrapper .scroll-pane.disable-click 
+ .row.auction-but.disabled.choose-outfit-window.transparent .choose-outfit .choose-outfit-wrapper:hover {
     cursor: url(./img/kusor.png), url(../img/gui/cursor/1.cur), auto
 }
