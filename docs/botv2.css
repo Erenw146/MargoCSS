@@ -47,29 +47,30 @@ body{
 }
 #menu
 {
-    margin-left: 20px;
+    margin-left: 90px;
 }
 .b_button:active {
     color: #e2e3e5;
-    border-bottom: 1px solid #1a6397;
+    border-bottom: 3px solid #1a6397;
 }
 .b_button:focus {
     color: #e2e3e5;
-    border-bottom: 1px solid #1a6397;
+    border-bottom: 3px solid #1a6397;
 }
 .b_button:hover {
     color: #e2e3e5;
-    border-bottom: 1px solid #1a6397;
+    border-bottom: 3px solid #1a6397;
+    transition:0.5s;
 }
 
-div#content {
-    background: #06152afa;
+#content {
+    background: #000917;
     height: 446px;
-    width: 825px;
+    width: 870px;
     position: absolute;
-    left: 37px;
+    left: 15px;
     top: 75px;
-    box-shadow: 4px 3px 10px rgb(12 57 84);
+    box-shadow: 1px 2px 7px rgb(12 57 84);
 }
 .close
 {
@@ -92,17 +93,153 @@ div#content {
     cursor: pointer;
     border:none;
 }
+.close:focus
+{
+    border:none;
+}
 #wersja
 {
     width: 67px;
     font-size: 11px;
-    border: 2px solid;
     padding: 2px;
-    border-radius: 7px;
     font-weight: bold;
     color: #874d44;
     position: absolute;
-    top: 525px;
+    top: 530px;
     left: 37px;
 
+}
+.konfig
+{
+    background-image: url(./bimg/s2.png);
+    min-width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 27px;
+    left: 634px;
+}
+.konfig:hover
+{
+    background-image: url(./bimg/s1.png);
+    min-width: 24px;
+    height: 24px;
+    border:none;
+}
+.konfig:focus
+{
+    background-image: url(./bimg/s1.png);
+  border:none;
+}
+img.logo1
+{
+    height: 65;
+    position: absolute;
+    top: -1px;
+    left: 15px;
+
+}
+#licka
+{
+    width: 115px;
+    font-size: 11px;
+    padding: 2px;
+    font-weight: bold;
+    color: #874d44;
+    position: absolute;
+    top: 530px;
+    left: 778px;
+
+}
+b.lic1
+{
+    color:#136398; 
+}
+.b_div_switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+  }
+  .b_div_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .b_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bb3d39;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 20px;
+  }
+  
+  .b_slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .b_slider {
+    background-color: #136398;
+  }
+  
+  input:focus + .b_slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .b_slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .b_switch_content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .b_slider:before{
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: -2px;
+  bottom: 0px;
+  background-size: cover;
+  -webkit-transition: .4s;
+  transition: .4s;
+  filter: drop-shadow(0px 0px 1px white);
+  border-radius: 20px;
+}
+.b_switch{
+position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+input:checked+.b_type_slider {
+    background-image: url(https://i.imgur.com/50Cqi8N.png);
+}
+
+input:checked+.b_slider {
+    background: #0a6222;
+    
+}
+#oniof
+{
+    position: relative;
+    margin: auto;
+    width: 700px;
+    height: 50px;
+    top: 18px;
 }
