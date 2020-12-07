@@ -242,4 +242,5 @@ input:checked+.b_slider {
     width: 700px;
     height: 50px;
     top: 18px;
+    font-family: 'Roboto', sans-serif;
 }
