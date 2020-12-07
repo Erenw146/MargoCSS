@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background:#221d1d;
+}
+#okno {
+    box-sizing: border-box;
+    position: fixed;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    width: 900px;
+    z-Index: 1000;
+    color: white;
+    background:#00060e;
+    background-size: cover;
+    height: 550px;
+    
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    margin-top: 23px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.b_button {
+    width: auto;
+    min-width: 82px;
+    padding: 5px;
+    height: auto;
+    background: #00060e;
+    color: #1d6797;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.b_nav_bar .b_button {
+    border-radius: 0;
+    width: 100%;
+    float: left;
+    opacity: 1;
+}
+#menu
+{
+    margin-left: 20px;
+}
+.b_button:active {
+    color: #e2e3e5;
+    border-bottom: 1px solid #1a6397;
+}
+.b_button:focus {
+    color: #e2e3e5;
+    border-bottom: 1px solid #1a6397;
+}
+.b_button:hover {
+    color: #e2e3e5;
+    border-bottom: 1px solid #1a6397;
+}
+
+div#content {
+    background: #06152afa;
+    height: 446px;
+    width: 825px;
+    position: absolute;
+    left: 37px;
+    top: 75px;
+    box-shadow: 4px 3px 10px rgb(12 57 84);
+}
+.close
+{
+    background-image: url(./bimg/x1.png);
+    min-width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 816px;
+    top: 27px;
+}
+.close:hover
+{
+    background-image: url(./bimg/x2.png);
+    min-width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 816px;
+    top: 27px;  
+    outline: none;
+    cursor: pointer;
+    border:none;
+}

@@ -15,9 +15,8 @@ body{
     color: white;
     background:#242430;
     background-size: cover;
-    box-shadow: inset 0 0 20px 9px #151414;
     border-radius: 20px;
-    height: 500px;
+    height: 550px;
 }
 
 .b_button{
@@ -41,4 +40,39 @@ body{
     background: #606478;
     width: 120px;
     transition: 0.3s;
+}
+#b_content {
+    position: absolute;
+    width: 675px;
+    height: 511px;
+    bottom: 0;
+    left: 225px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 13px;
+}
+div#head {
+    text-align: center;
+    background-color: #4d4b63;
+    height: 27px;
+    padding: 3px;
+    margin-top: 0px;
+    padding-top: 11px;
+    position: absolute;
+    top: 0px;
+    left: 225px;
+    width: 669px;
+    border-top-right-radius: 20px;
+    z-index: 1;
+}
+div#menu {
+    width: 225px;
+    height: 451px;
+   
+}
+#lic
+{
+    width: 225px;
+    height: 100px;
+    background-color: #49475e;
 }
