@@ -2,25 +2,29 @@
 <head>
     <link rel="stylesheet" href="botv2.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/menu.js"></script>
+
+
 </head>
 <body>
-
+>
 
     <div id="okno" class="ui-draggable" style="left: 282px; top: 90px;">
         <div id="logo"><img class="logo1" src="./bimg/logobot.png" alt=""></div>
         <div id="menu">
             <div class="navbar">
                 <button class="b_button active">AKTUALNOŚCI</button>
-                <button class="b_button  b_exp-e2">EXP/E2</button>
+                <button class="b_button b_exp">EXP/E2</button>
                 <button class="b_button b_inactive b_relog b_inactive">RELOG</button>
-                <button class="b_button">HEROS</button>
-                <button class="b_button">QUESTY</button>
+                <button class="b_button herosi">HEROS</button>
+                <button class="b_button quest">QUESTY</button>
                 <button class="b_button konfig"></button>
                 <button class="b_button close"></button>
             </div>
         </div>
     
      <div id="content">
+ <div id="exp">
          <div id="oniof">
         <div class="b_switch_content">
             <label class="b_div_switch" b_tip="Włącza albo wyłącza bota.">Stan<br><label class="b_switch">
@@ -46,11 +50,38 @@
             <label class="b_div_switch" b_tip="Włącza automatyczne sprzedawanie u Tunii.">Sellanie<br><label class="b_switch">
             <input class="b_sell" type="checkbox">
             <span class="b_slider b_sell_slider"></span>
-            </label></label>
-            
+            </label></label>           
             </div>
         </div>
+        <div class="b_mode_content"><label id="nmob">Nazwy mobów które ma bić bot:<br><textarea type="text" class="b_names" rows="3" cols="50">Dziewicza Orlica</textarea></label>
+            <label>Nazwa mapy: <input type="text" class="b_map_name b_transparent" value="wpisz nazwe"></label>
+            <label>Wracaj na kordy: <input type="text" class="b_back_cords b_transparent" maxlength="5"></label></div>
+    
+    <div class="b_real_content">
+        <label class="b_map_id_content"><button class="b_id b_map_id">ID mapy</button><textarea class="b_map_area" rows="1" cols="4" disabled=""></textarea></label>
+        <label>ID map po których ma wracać bot:<br><textarea type="text" class="b_back_ids" rows="3" cols="50">0</textarea></label>
+        <label>Używaj teleportu na mapę o ID:
+        <input type="number" class="b_transparent b_tp_map" value="0">
+        </label>
+        <label>Po zrespieniu się moba odczekaj:
+        <input type="number" class="b_transparent b_resp_delay" value="600"><br>
+        <i>+ Losowy odstęp w zakresie 0-1499ms</i>
+        </label>
+        <label>Kupuj potki aby mieć <input type="number" class="b_transparent b_buy_potions" value="0"> stacków.
+        </label>
+        <label> Autoheal [leczenie] <input type="number" class="b_transparent b_autoheal_p" min="1" max="100" value="75"> %
+        </label>
+        <label>Gotowe setupy pod większość e2/expowisk/tras<br><span class="b_setups_position" style="display:flex;"><select class="b_set"><option selected="" disabled="" style="text-shadow: 0px 0px 0px black;">Exp</option><option class="b_set_all b_set_exp" value="40||e">Nekropolia do questa (15-25)</option><option class="b_set_all b_set_exp" value="57||e">Demony Eder (15-30)</option><option class="b_set_all b_set_exp" value="42||e">Nieumarli do questa (16-25)</option><option class="b_set_all b_set_exp" value="82||e">Wacki Ithan (20-25)</option><option class="b_set_all b_set_exp" value="0||e">Mrówki Ithan (21-29)</option><option class="b_set_all b_set_exp" value="2||e">Zulusy K-H (24-34)</option><option class="b_set_all b_set_exp" value="59||e">Mulusy Torneg (24-36)</option><option class="b_set_all b_set_exp" value="3||e">Zbiry Eder (28-37)</option></select>
+        <select class="b_set_filter">
+        <option value="b_set_all">Wszystko</option>
+        <option value="b_set_exp">Exp</option>
+        <option value="b_set_e2">e2</option>
+        <option value="b_set_other">Inne</option>
+        <option value="b_set_forme">Dedykowane</option></select></span></label>
+        </div>
      </div>
+     </div>
+
     <div id="wersja">WERSJA: <b class="lic1">1.0</b></div>
     <div id="licka">LICENCJA: <b class="lic1">brak</b></div>
     
