@@ -37,6 +37,7 @@ body{
     outline: none;
     cursor: pointer;
     margin-left: 18px;
+    font-weight: bolder;
 }
 .b_nav_bar .b_button {
     border-radius: 0;
