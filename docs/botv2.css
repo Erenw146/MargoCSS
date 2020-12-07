@@ -91,3 +91,17 @@ div#content {
     cursor: pointer;
     border:none;
 }
+#wersja
+{
+    width: 67px;
+    font-size: 11px;
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #874d44;
+    position: absolute;
+    top: 525px;
+    left: 37px;
+
+}
