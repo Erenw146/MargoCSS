@@ -4,6 +4,24 @@
 .layer.interface-layer .main-column.right-column {
     background: url(./DarkUI/img/tlo.png) -251px 0;
 }
-body{
 
+.game-window-positioner .inventory_wrapper .inventory-grid-bg
+{
+background:url(./DarkUI/img/eq.png)no-repeat -175px 0;
+
+}
+.b_wrapper
+{
+    display: none;
+}
+.game-window-positioner .inventory_wrapper .bags-navigation
+{
+    right: 95px;
+    top: 207px;
+    z-index: 1;
+    background: url(./DarkUI/img/eq.png)no-repeat 0 -140px;
+}
+.game-window-positioner .inventory_wrapper .bags-navigation .item
+{
+    background: url(./DarkUI/img/eq.png) no-repeat -36px -181px
 }
