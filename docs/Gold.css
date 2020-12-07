@@ -1,9 +1,9 @@
 .game-window-positioner .character_wrapper .equipment-wrapper {
-    background: url(./eq.png) 0 -229px;
+    background: url(./DarkUI/img/eq.png) 0 -229px;
 }
 .layer.interface-layer .main-column.right-column {
-    background: url(./tlo.png) -251px 0;
+    background: url(./DarkUI/img/tlo.png) -251px 0;
 }
 body{
-    
+
 }
