@@ -40,3 +40,8 @@
     background-image: url(./cum.png);
     margin-right: 3px;cursor: pointer;
 }
+#buttons, #b_quests, #b_help, #b_matchmaking, #b_recipes, #b_clans, #b_pvp, #b_config, 
+#b_map, #b_skills,#b_friends, #b_addons, #helpbut, #logoutbut, #bchat
+ {
+     background-image: url(./ikonki.png) !important;
+}
