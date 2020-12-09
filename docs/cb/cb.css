@@ -13,3 +13,15 @@
 {
     background: url(./Stat.png);
 }
+.stats-row {
+    position: relative;
+    TOP: 6PX;
+}
+#leorn1, #leorn2
+{
+    display:none;
+}
+#skillSwitch.second, #skillSwitch.first, #skillSwitch.third 
+{
+    background-image: url(./cum.png);
+}
