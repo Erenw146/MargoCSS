@@ -44,4 +44,5 @@
 #b_map, #b_skills,#b_friends, #b_addons, #helpbut, #logoutbut, #bchat
  {
      background-image: url(./ikonki.png) !important;
+     cursor:pointer;
 }
