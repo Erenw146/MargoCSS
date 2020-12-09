@@ -12,6 +12,10 @@
 #stats
 {
     background: url(./Stat.png);
+    font-family: Gomme Sans;
+}
+.dmg-stat {
+    font-size: 10px;
 }
 .stats-row {
     position: relative;
