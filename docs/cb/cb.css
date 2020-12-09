@@ -77,3 +77,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+  #quest-log-window
+  {
+      background: url(./questy.png);
+  }
