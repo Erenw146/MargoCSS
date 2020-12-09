@@ -23,5 +23,11 @@
 }
 #skillSwitch.second, #skillSwitch.first, #skillSwitch.third 
 {
+   
+}
+.MM-battleset-switch-button {display: inline-block;
+    width: 36px;
+    height: 13px;
     background-image: url(./cum.png);
+    margin-right: 3px;cursor: pointer;
 }
