@@ -331,3 +331,16 @@ button.b_id:hover
 {
     font-family: 'Roboto', sans-serif;
 }
+#new_event_calendar {
+    background-image: url(https://i.imgur.com/i2ZL0ca.png);
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 31px;
+    left: 150px;
+    background-size: cover;
+}
+#new_event_calendar:hover {
+     background-position: 0!important;
+}
