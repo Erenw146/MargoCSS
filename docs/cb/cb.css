@@ -81,3 +81,21 @@
   {
       background: url(./questy.png);
   }
+  span.q_title {
+    font-family: Gomme Sans;
+    color: #fbfbfb;
+  }
+  .q_bring, .q_doit, .q_kill {
+    font: normal 13px Georgia;
+    display: block;
+    color: #d0c503;
+    padding-left: 5px;
+    font-family: Gomme Sans;
+  }
+  .q_kill {
+    color: #db0000;
+}
+#quest-log-window .quest-log-close-but
+{
+    background: url(./x.png);
+}
