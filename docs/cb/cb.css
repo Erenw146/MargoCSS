@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('Gomme.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-     url('Gomme.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-  } 
+@import url(//db.onlinewebfonts.com/c/10de8f4b826dee00ba03a15f1cec75e8?family=Gomme+Sans);
   body
   {
       font-family: Gomme;
