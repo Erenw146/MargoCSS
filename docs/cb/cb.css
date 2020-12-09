@@ -23,7 +23,7 @@
 }
 #skillSwitch.second, #skillSwitch.first, #skillSwitch.third 
 {
-   
+   background: url(./umki.png);
 }
 .MM-battleset-switch-button {display: inline-block;
     width: 36px;
