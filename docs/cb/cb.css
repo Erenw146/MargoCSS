@@ -13,6 +13,7 @@
 {
     background: url(./Stat.png);
     font-family: Gomme Sans;
+    left:666px;
 }
 .dmg-stat {
     font-size: 10px;
@@ -54,3 +55,25 @@
 {
     display: none;
 }
+#buttons
+{
+    left:155px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
