@@ -103,7 +103,7 @@
 {
     background: url(./x.png);
 }
-#chat.left
+#chat.left, #chattabs.left, #chat.left #chattabs s
 {
     background-image: url(./chat.png);
 }
