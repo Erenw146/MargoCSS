@@ -13,7 +13,7 @@ body{
     color: white;
     background:#00060e;
     background-size: cover;
-    height: 550px;
+    height: 535px;
     
 }
 .navbar {
@@ -44,6 +44,17 @@ body{
     float: left;
     opacity: 1;
 }
+#mk
+{
+    position: absolute;
+    height: 524px;
+    width: 105px;
+
+}
+
+
+
+
 #menu
 {
     margin-left: 90px;
@@ -67,9 +78,9 @@ body{
 #content {
     background: #000917;
     height: 446px;
-    width: 870px;
+    width: 782px;
     position: absolute;
-    left: 15px;
+    left: 110px;
     top: 75px;
     box-shadow: 1px 2px 7px rgb(12 57 84);
 }
@@ -331,16 +342,54 @@ button.b_id:hover
 {
     font-family: 'Roboto', sans-serif;
 }
-#new_event_calendar {
-    background-image: url(https://i.imgur.com/i2ZL0ca.png);
-    cursor: pointer;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    bottom: 31px;
-    left: 150px;
-    background-size: cover;
+.tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
 }
-#new_event_calendar:hover {
-     background-position: 0!important;
+
+.tooltip .right {
+    min-width:200px; 
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -50%);
+    padding:10px 20px;
+    color:#fff;
+    background-color:#003366;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    border:1px solid transparent;box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.tooltip:hover .right {
+    visibility:visible; opacity:1;
+}
+
+.tooltip .right i {
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-12px;
+    width:12px;
+    height:24px;
+    overflow:hidden;
+}
+
+.tooltip .right i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#003366;
+    border:1px solid transparent;box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
