@@ -6,4 +6,18 @@ a.sub_link {
     top: 31px!important;
     margin-top: 4px!important;
     display: inline-grid!important;
+    text-decoration: none!important;
+}
+strong {
+    position: absolute!important;
+}
+.top-portal {
+    font-size: 12px;
+    width: 1000px!important;
+    display: none!important;
+}
+.dark-mode a:hover {
+    
+    background-color: #585858a3!important;
+
 }
