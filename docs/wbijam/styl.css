@@ -1,9 +1,9 @@
 a.sub_link {
-    position: relative;
-    background: #452b02;
-    border-radius: 8px;
-    padding: 8px;
-    top: 31px;
+    position: relative!important;
+    background: #452b02!important;
+    border-radius: 8px!important;
+    padding: 8px!important;
+    top: 31px!important;
     margin-top: 4px!important;
-    display: inline-grid
+    display: inline-grid!important;
 }
