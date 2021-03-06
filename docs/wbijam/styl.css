@@ -1,4 +1,9 @@
-#lol
-{
-    
+a.sub_link {
+    position: relative;
+    background: #452b02;
+    border-radius: 8px;
+    padding: 8px;
+    top: 31px;
+    margin-top: 4px!important;
+    display: inline-grid
 }
