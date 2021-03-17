@@ -22,8 +22,8 @@
 #ikona9 {
     position: relative;
     background-color: white;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-size: cover;
     margin-bottom: 3px;
     cursor: pointer;
@@ -34,7 +34,7 @@
     position: absolute;
     background-color: red;
     height: 530px;
-    width: 50px;
+    width: 40px;
     left: 793px;
     padding: 4px;
 }
