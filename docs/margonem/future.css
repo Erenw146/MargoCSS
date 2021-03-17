@@ -1,0 +1,39 @@
+#ikona1,
+#ikona2,
+#ikona3,
+#ikona4,
+#ikona5,
+#ikona6,
+#ikona7,
+#ikona8,
+#ikona9:hover {
+    transition: 0.3s;
+    background-color: green !important;
+}
+
+#ikona1,
+#ikona2,
+#ikona3,
+#ikona4,
+#ikona5,
+#ikona6,
+#ikona7,
+#ikona8,
+#ikona9 {
+    position: relative;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    margin-bottom: 3px;
+
+}
+
+#kontener {
+    position: absolute;
+    background-color: red;
+    height: 530px;
+    width: 50px;
+    left: 793px;
+    padding: 4px;
+}
