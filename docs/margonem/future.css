@@ -38,3 +38,10 @@
     left: 793px;
     padding: 4px;
 }
+#mainstat {
+    background: red;
+    height: 57px;
+    width: 510px;
+    position: absolute;
+    top: -64px;
+}
