@@ -1,5 +1,31 @@
 
 @import url('https://pro.fontawesome.com/releases/v5.8.2/css/all.css');
+body
+{
+    background-color: black;
+}
+
+
+#kontener {
+    position: absolute;
+    background-color: #494949;
+    height: 530px;
+    width: 40px;
+    left: 793px;
+    padding: 4px;
+    text-align: center;
+    font-size: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#mainstat {
+    background: red;
+    height: 57px;
+    width: 510px;
+    position: absolute;
+    top: -64px;
+}
+
 #ikona1:hover,
 #ikona2:hover,
 #ikona3:hover,
@@ -8,11 +34,12 @@
 #ikona6:hover,
 #ikona7:hover,
 #ikona8:hover,
-#ikona9:hover {
+#ikona9:hover,
+#wyloguj:hover {
     transition: 0.3s;
-    background-color: green !important;
+    color: #ffffff;
+    transform: scale(1.2);
 }
-
 #ikona1,
 #ikona2,
 #ikona3,
@@ -23,27 +50,30 @@
 #ikona8,
 #ikona9 {
     position: relative;
-    background-color: white;
+    background-color: #ffffff33;
     height: 40px;
     width: 40px;
     background-size: cover;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
     cursor: pointer;
-
+    border-radius: 10px;
+    border: 1px double white;
 }
 
-#kontener {
-    position: absolute;
-    background-color: red;
-    height: 530px;
+i.fas,i.far {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#wyloguj
+{
+    position: relative;
+    background-color: #ffffff33;
+    height: 40px;
     width: 40px;
-    left: 793px;
-    padding: 4px;
-}
-#mainstat {
-    background: red;
-    height: 57px;
-    width: 510px;
-    position: absolute;
-    top: -64px;
+    background-size: cover;
+    margin-bottom: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px double white;
+    top: 57px;
 }
