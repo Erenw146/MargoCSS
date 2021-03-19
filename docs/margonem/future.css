@@ -58,10 +58,13 @@ body
     cursor: pointer;
     border-radius: 10px;
     border: 1px double white;
+    color: black;
 }
 
 i.fas,i.far {
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   cursor: pointer;
 }
 #wyloguj
 {
