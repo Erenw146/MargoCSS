@@ -324,24 +324,23 @@ i.fas,i.far {
 
 button#ZMIEN:hover {
     background: #121930;
-    /* color: #d0c503; */
     transition: 0.3s;
     color: #d0c503;
-    transform: scale(1.2);
     cursor: pointer;
     -webkit-text-stroke-color: #121930;
     background-color: #121930;
+   font-family: Gomme Sans;
 }
 
 button#ZMIEN {
-    top: 46px;
+    background: transparent;
+    top: 167px;
     z-index: 301;
-    background: #5c5c1f;
     position: absolute;
-    width: 120px;
-    height: 31px;
-    border-radius: 10px;
-    /* outline: none; */
+    width: 103px;
+    height: 26px;
     border: none;
-    left: 527px;
+    left: 679px;
+    color: white;
+    background-image: url(https://i.imgur.com/uxUXYaB.png);
 }
