@@ -353,3 +353,8 @@ button#ZMIEN {
 {
     background:url(./DODATKI.png);
 }
+.gfont:before,.gfont:after,.gfont
+{
+
+    color: #d0c503;
+}
