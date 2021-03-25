@@ -303,9 +303,9 @@ i.fas,i.far {
 }
 #exp2
 {
-    background-image: url(./exp.png);
+    background-image: url(./exp.png)!important;
 }
-#hp2
+#life2
 {
-    background-image: url(./hp.png);
+    background-image: url(./hp.png)!important;
 }
