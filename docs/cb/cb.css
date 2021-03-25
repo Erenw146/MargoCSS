@@ -319,3 +319,38 @@ i.fas,i.far {
 {
     top: 57px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+button#ZMIEN:hover {
+    background: #121930;
+    /* color: #d0c503; */
+    transition: 0.3s;
+    color: #d0c503;
+    transform: scale(1.2);
+    cursor: pointer;
+    -webkit-text-stroke-color: #121930;
+    background-color: #121930;
+}
+
+button#ZMIEN {
+    top: 46px;
+    z-index: 999;
+    background: #5c5c1f;
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    border-radius: 10px;
+    /* outline: none; */
+    border: none;
+    left: 527px;
+}
