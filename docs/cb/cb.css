@@ -216,3 +216,11 @@ i.fas,i.far {
 #buttons {
     display: none!important;
 }
+#corners .border-u {
+    top: -5px!important;
+}
+#corners .border-d {
+    top: 535px!important;
+    left: -7px!important;
+    z-index: -1!important;
+}
