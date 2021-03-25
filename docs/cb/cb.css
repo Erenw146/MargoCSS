@@ -299,12 +299,13 @@ i.fas,i.far {
 }
 #life1,#exp1,#life2,#exp2
 {
-    left:536px;
+    left:678px;
     height:10px;
 }
 #exp2
 {
     background-image: url(./exp.png)!important;
+    top: 58px;
 }
 #life2
 {
@@ -312,9 +313,9 @@ i.fas,i.far {
 }
 #life1
 {
-    top: 43px;
+    top: 46px;
 }
 #exp1
 {
-    top: 54px;
+    top: 57px;
 }
