@@ -200,6 +200,7 @@
     color: #121930;
     -webkit-text-stroke: 0.6px;
     -webkit-text-stroke-color: #d0c503;
+    cursor: pointer;
 }
 
 i.fas,i.far {
