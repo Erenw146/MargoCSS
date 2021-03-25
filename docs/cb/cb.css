@@ -224,3 +224,15 @@ i.fas,i.far {
     left: -7px!important;
     z-index: -1!important;
 }
+#shufflebutton,#startbutton,#hdbutton,#volumeSlider
+{
+    display: none;
+}
+.conf-title
+{
+    background-image: url(./nagconfig.png);
+}
+#config
+{
+   background: url(./configt.png) no-repeat bottom center
+}
