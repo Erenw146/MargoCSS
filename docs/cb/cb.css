@@ -269,5 +269,9 @@ i.fas,i.far {
 }
 #chattabs S
 {
-    background: url(https://imgur.com/580yb7q.png);
+    background: url(https://imgur.com/580yb7q.png)!important;
+}
+#bottombar
+{
+    background: url(./dolchat.png);
 }
