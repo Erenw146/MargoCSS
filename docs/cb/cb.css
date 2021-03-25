@@ -349,3 +349,7 @@ button#ZMIEN {
 {
     font: bold 14px Gomme Sans;
 }
+#addonspanel
+{
+    background:url(./DODATKI.png);
+}
