@@ -329,7 +329,6 @@ button#ZMIEN:hover {
     cursor: pointer;
     -webkit-text-stroke-color: #121930;
     background-color: #121930;
-   font-family: Gomme Sans;
 }
 
 button#ZMIEN {
@@ -343,4 +342,9 @@ button#ZMIEN {
     left: 679px;
     color: white;
     background-image: url(https://i.imgur.com/uxUXYaB.png);
+    font: bold 14px Gomme Sans;
+}
+#nick
+{
+    font: bold 14px Gomme Sans;
 }
