@@ -358,3 +358,19 @@ button#ZMIEN {
 
     color: #d0c503;
 }
+h2.name {
+    color: #b9b00a;
+}
+.author
+{
+color: white;
+}
+#addonDetails
+{
+    color:white;
+    background-color: #121930!important;
+}
+#addons .author a {
+    text-decoration: none;
+    color: rgb(255 255 255 / 40%);
+}
