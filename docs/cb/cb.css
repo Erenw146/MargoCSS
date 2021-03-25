@@ -309,3 +309,11 @@ i.fas,i.far {
 {
     background-image: url(./hp.png)!important;
 }
+#life1
+{
+    top: 43px;
+}
+#exp1
+{
+    top: 54px;
+}
