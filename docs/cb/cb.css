@@ -389,3 +389,7 @@ A {
     cursor: pointer;
     color: #ffee07;
 }
+#addons h1
+{
+    background-color: rgb(208 197 3 / 42%);
+}
