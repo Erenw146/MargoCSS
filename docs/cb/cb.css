@@ -115,13 +115,15 @@
 }
 #tip
 {
-  background-color:#cfc403;
-  color:#121930;
-  border-top-left-radius:10px;
-  border-bottom-right-radius:10px;
-  border:2px solid #121930;
-  font-family: Gomme Sans;
-  font-weight:bolder;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #121930;
+    font-family: Gomme Sans;
+    font-weight: bolder;
+    background: #121930;
+    border-color: #d0c503;
+    color: #c8c400;
+    text-shadow: 1px 1px #1a1a1a;
 }
 #tip.t_item {
     background: #121930;
