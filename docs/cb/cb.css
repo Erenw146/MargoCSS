@@ -8,7 +8,7 @@
 
 #panel
 {
-    background:url(./panel1.png)
+    background:url(./panelv2.png)
 }
 #stats
 {
@@ -277,4 +277,26 @@ i.fas,i.far {
 #logoutbut
 {
     display: none;
+}
+#pvpmode
+{
+    background-image: url(https://i.imgur.com/SwGzEFc.png);
+}
+#gold
+{
+    top: 82px;
+    left: 657px;
+}
+#base3
+{
+    top:110px;
+}
+#stats
+{
+    top:160px;
+    left: 660px;
+}
+#life1,#exp1
+{
+    left:536px;
 }
