@@ -310,6 +310,7 @@ i.fas,i.far {
 #life2
 {
     background-image: url(./hp.png)!important;
+    top:47px;
 }
 #life1
 {
