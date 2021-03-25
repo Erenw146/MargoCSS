@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/10de8f4b826dee00ba03a15f1cec75e8?family=Gomme+Sans);
+@import url('https://pro.fontawesome.com/releases/v5.8.2/css/all.css');
   body
   {
       font-family: Gomme Sans;
@@ -133,7 +134,7 @@
 #tip.t_item B.att {
     color: #07e3c7;
 }
-@import url('https://pro.fontawesome.com/releases/v5.8.2/css/all.css');
+
 body
 {
     background-color: black;
