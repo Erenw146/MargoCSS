@@ -329,6 +329,7 @@ button#ZMIEN:hover {
     cursor: pointer;
     -webkit-text-stroke-color: #121930;
     background-color: #121930;
+    background-image: url(https://i.imgur.com/uxUXYaB.png);
 }
 
 button#ZMIEN {
