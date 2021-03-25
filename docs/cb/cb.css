@@ -107,6 +107,7 @@
 #chat.left, #chattabs.left, #chat.left #chattabs s
 {
     background-image: url(./chat.png);
+    background-color: transparent!important;
 }
 #tip-o1,#tip-o2
 {
