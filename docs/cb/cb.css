@@ -213,3 +213,7 @@ i.fas,i.far {
     border: 1px double white;
     top: 57px;
 }
+#ni-promo
+{
+    display: none!important;
+}
