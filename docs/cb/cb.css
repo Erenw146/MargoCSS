@@ -230,9 +230,9 @@ i.fas,i.far {
 }
 .conf-title
 {
-    background-image: url(./nagconfig.png);
+    background-image: url(./nagconfig.png)!important;
 }
 #config
 {
-   background: url(./configt.png) no-repeat bottom center
+   background: url(./configt.png) no-repeat bottom center!important;
 }
