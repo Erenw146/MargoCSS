@@ -140,15 +140,19 @@
 
 #kontener {
     position: absolute;
-    background-color: #494949;
+    background-color: #121930;
     height: 530px;
     width: 40px;
-    left: 793px;
+    left: 792px;
     padding: 4px;
     text-align: center;
     font-size: 25px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-right: 2px solid #d0c503;
+    border-bottom: 2px solid #d0c503;
+    border-top: 2px solid #d0c503;
+    top: -2px;
 }
 #mainstat {
     background: red;
