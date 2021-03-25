@@ -1,11 +1,4 @@
-@font-face {font-family: "Gomme Sans";
-    src: url("https://db.onlinewebfonts.com/t/10de8f4b826dee00ba03a15f1cec75e8.eot"); /* IE9*/
-    src: url("https://db.onlinewebfonts.com/t/10de8f4b826dee00ba03a15f1cec75e8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("https://db.onlinewebfonts.com/t/10de8f4b826dee00ba03a15f1cec75e8.woff2") format("woff2"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/10de8f4b826dee00ba03a15f1cec75e8.woff") format("woff"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/10de8f4b826dee00ba03a15f1cec75e8.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("https://db.onlinewebfonts.com/t/10de8f4b826dee00ba03a15f1cec75e8.svg#Gomme Sans") format("svg"); /* iOS 4.1- */
-}
+@import url('https://db.onlinewebfonts.com/c/10de8f4b826dee00ba03a15f1cec75e8?family=Gomme+Sans');
 @import url('https://pro.fontawesome.com/releases/v5.8.2/css/all.css');
   body
   {
