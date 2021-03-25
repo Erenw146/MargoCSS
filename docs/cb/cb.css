@@ -157,11 +157,11 @@
     top: -2px;
 }
 #mainstat {
-    background: red;
     height: 26px;
     width: 103px;
     position: absolute;
     top: -64px;
+    background-image: url(https://i.imgur.com/uxUXYaB.png);
 }
 /*MENU*/
 #ikona1:hover,
