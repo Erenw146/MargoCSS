@@ -382,3 +382,10 @@ color: white;
 {
     color: white;
 }
+#addon_help_txt {
+    color: white;
+}
+A {
+    cursor: pointer;
+    color: #ffee07;
+}
