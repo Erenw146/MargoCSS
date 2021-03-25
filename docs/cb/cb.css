@@ -265,13 +265,13 @@ i.fas,i.far {
 }
 #chat
 {
-    background: url(https://imgur.com/580yb7q.png);
-}
-#chattabs S
-{
-    background: url(https://imgur.com/580yb7q.png)!important;
+    background: url(https://imgur.com/580yb7q);
 }
 #bottombar
 {
     background: url(./dolchat.png);
+}
+#inpchat
+{
+    background: #121930!important;
 }
