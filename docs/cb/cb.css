@@ -244,5 +244,5 @@ i.fas,i.far {
     top: 404px;
 }
 #cfg_options DIV::before {
-    background: url(./check.png) no-repeat top left;
+    background: url(./check.png) no-repeat top left!important;
 }
