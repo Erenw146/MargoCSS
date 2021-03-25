@@ -393,3 +393,6 @@ A {
 {
     background-color: rgb(208 197 3 / 42%);
 }
+#tip.t_item B.noreq {
+    color: red!important;
+}
