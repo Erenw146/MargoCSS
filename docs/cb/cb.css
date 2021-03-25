@@ -235,4 +235,14 @@ i.fas,i.far {
 #config
 {
    background: url(./configt.png) no-repeat bottom center!important;
+   height: 446px!important;
+}
+#config .right-save-buts {
+    float: right;
+    position: absolute;
+    left: 234px;
+    top: 404px;
+}
+#cfg_options DIV::before {
+    background: url(./check.png) no-repeat top left;
 }
