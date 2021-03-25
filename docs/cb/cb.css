@@ -107,7 +107,7 @@
 #chat.left, #chattabs.left, #chat.left #chattabs s
 {
     background-image: url(./chat.png);
-    background-color: transparent!important;
+    background-color: transparent;
 }
 #tip-o1,#tip-o2
 {
@@ -196,7 +196,6 @@
     margin-bottom: 6px;
     cursor: pointer;
     border-radius: 10px;
-    border: 1px double white;
     color: #121930;
     -webkit-text-stroke: 0.6px;
     -webkit-text-stroke-color: #d0c503;
@@ -274,4 +273,8 @@ i.fas,i.far {
 #chat, #chattabs, #chat #chattabs s
 { 
     background-Image: url(./chatm.png);
+}
+#logoutbut
+{
+    display: none;
 }
