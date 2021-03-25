@@ -299,4 +299,13 @@ i.fas,i.far {
 #life1,#exp1,#life2,#exp2
 {
     left:536px;
+    height:10px;
+}
+#exp2
+{
+    background-image: url(./exp.png);
+}
+#hp2
+{
+    background-image: url(./hp.png);
 }
