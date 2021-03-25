@@ -257,3 +257,8 @@ i.fas,i.far {
 #cfg_options DIV::before {
     background: url(./check.png) no-repeat top left;
 }
+.MM-battleset-switch {
+    position: absolute;
+    top: 245px;
+    left: 147px;
+}
