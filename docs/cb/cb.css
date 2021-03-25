@@ -15,6 +15,7 @@
     background: url(./Stat.png);
     font-family: Gomme Sans;
     left:666px;
+    display: none;
 }
 .dmg-stat {
     font-size: 10px;
