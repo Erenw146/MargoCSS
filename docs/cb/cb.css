@@ -275,3 +275,7 @@ i.fas,i.far {
 {
     background: #121930!important;
 }
+#chat, #chattabs, #chat #chattabs s
+{ 
+    background-Image: url(./chatm.png);
+}
