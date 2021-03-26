@@ -273,7 +273,7 @@ i.fas,i.far {
 }
 #chat, #chattabs, #chat #chattabs s
 { 
-    background-Image: url(.chatv2.png);
+    background-Image: url(./chatv2.png);
 }
 #logoutbut
 {
