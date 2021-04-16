@@ -404,4 +404,15 @@ A {
 #loading .progressbar .bar {
     background-color: #FFEB3B;
     height: 10px;
+    border-radius: 10px;
+}
+.bar{
+    width: 400px;
+}
+#loading .progressbar {
+    margin: 10px auto 5px;
+    width: 400px;
+    border: none;
+    height: 10px;
+    border-radius: 10px;
 }
