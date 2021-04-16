@@ -401,3 +401,7 @@ A {
     background:url(./sklep.png);
     border-radius: 10px;
 }
+#loading .progressbar .bar {
+    background-color: #FFEB3B;
+    height: 10px;
+}
