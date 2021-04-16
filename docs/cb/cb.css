@@ -399,4 +399,5 @@ A {
 #shop
 {
     background:url(./sklep.png);
+    border-radius: 10px;
 }
