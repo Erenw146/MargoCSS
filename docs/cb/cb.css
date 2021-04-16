@@ -396,3 +396,7 @@ A {
 #tip.t_item B.noreq {
     color: red!important;
 }
+#shop
+{
+    background:url(./sklep.png);
+}
