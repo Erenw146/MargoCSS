@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    background: #252735;
+    color: white!important;
+}
+
+#container {
+    background-color: #2a3142!important;
+}
+.bg-white
+{
+    background-color:#2a3142!important;
+}
+a{
+    color:white!important;
+}
+.dropdown-menu
+{
+    background-color:#2a3142;
+}
+a:hover
+{
+    background-color:#626ed4!important;
+}
