@@ -31,3 +31,9 @@ a:hover
     padding: 0.25rem!important;
     border-color: #626ed4!important;
 }
+.table tbody tr td:nth-child(5):before
+{
+
+content: url(https://erenw146.github.io/MargoCSS/wbijam/dsico.png);
+
+}
