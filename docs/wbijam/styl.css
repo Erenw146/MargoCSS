@@ -18,8 +18,10 @@ a{
 .dropdown-menu
 {
     background-color:#2a3142;
+    border-radius: 10px!important;
 }
 a:hover
 {
     background-color:#626ed4!important;
+    border-radius: 10px!important;
 }
